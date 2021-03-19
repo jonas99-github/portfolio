@@ -1,0 +1,69 @@
+.navbar{
+    list-style-type: none;
+    padding:20px;
+    background-color:black;
+    margin-top:-10px;
+    margin-left:-10px;
+    margin-right:-10px;
+    text-align:right;
+    color:white;
+}
+.navbar a{
+    text-decoration:none;
+}
+.navbar li{
+    display: inline;
+}
+.navclass{
+    width: 25px;
+    height: 5px;
+    background-color: black;
+    float:right;
+}
+.body-page{
+    position:relative;
+}
+.footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    left:0;
+    height:20px;
+    background-color:black;
+    color:white;
+    text-align:center;
+    margin-bottom:-10px;
+}
+.title-portf{
+    color:white;
+    text-decoration:none;
+    float:left;
+}
+.jonas{
+    background-color:#ffbc14;
+    margin-top:-10px;
+    margin-left:-10px;
+    margin-right:-10px;
+    padding-bottom:665px;
+    text-align:center;
+    color:#25242b;
+  
+}
+.jonas-content{
+    position:absolute;
+    margin-top:200px;
+    float:center;
+    width:100%;
+}
+.aboutme{
+    background-color:#f8f9fa;
+    color:#25242b;
+    margin-top:-48px;
+    padding-bottom:100px;
+    text-align:left;
+    padding-left:180px;
+    position:relative;
+}
+.projects{
+    background-color:#0082a0;
+}
