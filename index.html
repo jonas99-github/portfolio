@@ -6,9 +6,7 @@
 <link href="style.css" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -28,7 +26,7 @@
     <span style="text-decoration: underline;"> palmianojonas@gmail.com</span></p>
 </div>
 </div>
-
+<div class="overlay"></div>
 <br><br>
 
 <div class="aboutme" id="aboutme">
@@ -37,10 +35,10 @@
     <p>I studied BS in Information Technology at AMA Computer College. I am 23 years old from Pasay City, Metro Manila. I develop Web Applications and Websites such as Business, Brochure and Catalogue, eCommerce, Non-profit Organization, Educational, Business Directory, Portal, Portfolio / CV, Informational, Infopreneur, Online Community, News and Magazine, Entertainment, Photo-sharing, Personal / Autobiographical and Blog Websites.</p>
     <br><br><br>
     <div class="col text-center" style="margin-left:-80px;">
-    <button style="font-size:18px;font-weight:bold;height:70px;width:160px;" class="btn btn-dark">Show projects</button></div>
+    <a style="font-size:18px;font-weight:bold;height:70px;width:160px;" class="btn btn-dark" href="#projects">Show projects</a></div>
 </div>
 
-<div class="projects">
+<div class="projects" id="projects">
     <br><br><br><br>
 <h1 style="color:#ffbc14;text-align:center; ">Projects</h1>
 <ul>
@@ -84,6 +82,10 @@
 </body>
 </html>
 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 <script>
-   
+	var scroll = new SmoothScroll('a[href*="#"]');
 </script>
