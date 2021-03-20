@@ -19,7 +19,7 @@
    <p style="font-size:20px;">-Web Development-</p>
 </p>
 
-<a class="btn btn-primary btn-xl js-scroll-trigger" style="font-size:14px; height:58px;" href="#aboutme">Find Out More</a>
+<a class="btn btn-primary" style="font-size:14px; height:58px;" href="#aboutme">Find Out More</a>
 <br><br><br><br><br><br><br><br>
 
 <p style="text-align: left;margin-left:10px;">Get in touch &#x1F449;
@@ -87,5 +87,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 <script>
-	var scroll = new SmoothScroll('a[href*="#"]');
+	
+    var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 800
+});
 </script>
