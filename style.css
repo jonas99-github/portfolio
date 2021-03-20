@@ -67,3 +67,15 @@
 .projects{
     background-color:#0082a0;
 }
+#aboutmelink{
+    font-size:14px; 
+    height:58px;
+    padding: 14px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+#projectslink{
+    font-size:16px;height:70px;width:160px;padding: 18px 25px;
+    text-align: center;text-decoration: none;display: inline-block;
+}
