@@ -33,6 +33,13 @@
     color:white;
     text-align:center;
     margin-bottom:-10px;
+    opacity: 0.6;
+    height:100px;
+    justify-content: center;
+    font-family: sans-serif;
+    display:flex;
+    align-items:center;
+    
 }
 .title-portf{
     color:white;
@@ -78,4 +85,27 @@ display: inline-block;
 #projectslink{
     font-size:16px;height:70px;width:160px;padding: 18px 25px;
     text-align: center;text-decoration: none;display: inline-block;
+    margin-top:50px;
+}
+.projects2{
+    background-color:#FFFFFF;
+    float:center;
+    width:100%;
+    text-align:center;
+
+}
+.fas{
+    font-size:100px;
+
+}
+.far{
+    font-size:30px;
+
+}
+.projects-content{
+    width:100%;
+    text-align:center;
+}
+.contact{
+    margin-bottom:100px;
 }
