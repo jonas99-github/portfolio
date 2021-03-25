@@ -92,15 +92,13 @@ display: inline-block;
     float:center;
     width:100%;
     text-align:center;
-
 }
 .fas{
     font-size:100px;
-
 }
 .far{
     font-size:30px;
-
+    color:black;
 }
 .projects-content{
     width:100%;
