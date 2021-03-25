@@ -93,11 +93,9 @@ display: inline-block;
     width:100%;
     text-align:center;
 }
-.fas{
-    font-size:100px;
-}
+
 .far{
-    font-size:30px;
+    font-size:40px;
     color:black;
 }
 .projects-content{
