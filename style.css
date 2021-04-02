@@ -24,7 +24,7 @@
     position:relative;
 }
 .footer{
-    position:absolute;
+    
     bottom:0;
     width:100%;
     left:0;
@@ -88,7 +88,7 @@ display: inline-block;
     text-align: center;text-decoration: none;display: inline-block;
     margin-top:50px;
 }
-.projects2{
+.whitebg-div{
     background-color:#FFFFFF;
     float:center;
     width:100%;
@@ -105,6 +105,8 @@ display: inline-block;
 }
 .contact{
     margin-bottom:100px;
+    color:#25242b;
+    text-align:center;
 }
 .skills{
     width:100%;
@@ -112,4 +114,11 @@ display: inline-block;
     height:400px;
     text-align:center;
     display:block;
+}
+.graybg-div{
+    background-color:#f8f9fa;
+    float:center;
+    width:100%;
+    text-align:center;
+    height:200px;
 }
