@@ -104,6 +104,7 @@ display: inline-block;
 .contact{
     margin-bottom:100px;
     color:#25242b;
+    text-align:center;
 }
 .skills{
     width:100%;
@@ -117,5 +118,5 @@ display: inline-block;
     float:center;
     width:100%;
     text-align:center;
-    height:200px;
+    height:500px;
 }
