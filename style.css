@@ -28,7 +28,7 @@
     bottom:0;
     width:100%;
     left:0;
-    height:20px;
+    height:10px;
     background-color:#f8f9fa;
     color:black;
     text-align:center;
@@ -73,7 +73,6 @@
 }
 .projects{
     background-color:#0082a0;
-    position: relative;
 }
 #aboutmelink{
     font-size:14px; 
@@ -101,12 +100,10 @@ display: inline-block;
 }
 .projects-content{
     width:100%;
-    text-align:center;
 }
 .contact{
     margin-bottom:100px;
     color:#25242b;
-    text-align:center;
 }
 .skills{
     width:100%;
