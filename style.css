@@ -50,24 +50,25 @@
     background-color:#ffbc14;
     margin-top:-10px;
     margin-left:-10px;
-    margin-right:-10px;
+    margin-right:-20px;
     padding-bottom:665px;
     text-align:center;
     color:#25242b;
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .underc{   
         position:absolute;
-        margin-top: 300px;
+        margin-top: 150px;
+        right:0;
 }
 .jonas-content{
     position:absolute;
-    margin-top:870px;
+    margin-top:845px;
     float:center;
     width:100%;
+
 }
 .aboutme{
     background-color:white;
