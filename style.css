@@ -4,9 +4,7 @@
     box-sizing:border-box;
     text-decoration:none;
     list-style-type:none;
-    background: #000 !important;
-    color: #0f0 !important;
-    outline: solid #f00 1px !important;
+    
 }
 body
 {
@@ -40,7 +38,7 @@ body
 }
 @media only screen and (max-width:500px){
     .jonas-content{
-        background-color:red;
+      
     }
     
 }
