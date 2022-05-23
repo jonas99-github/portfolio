@@ -4,6 +4,9 @@
     box-sizing:border-box;
     text-decoration:none;
     list-style-type:none;
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
 }
 body
 {
@@ -17,8 +20,6 @@ body
     list-style-type: none;
     padding:20px;
     background-color:black;
-   
-  
     text-align:right;
     color:white;
 }
@@ -41,11 +42,7 @@ body
     .jonas-content{
         background-color:red;
     }
-    .jonas{
-    width: 100%;
-    height: 100%;
-    background-color: red;
-    }
+    
 }
 .footer{
     
