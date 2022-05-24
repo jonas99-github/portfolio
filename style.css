@@ -33,12 +33,17 @@ body
     background-color: black;
     float:right;
 }
-.body-page{
-   
-}
-@media only screen and (max-width:500px){
-    .jonas-content{
-      
+
+@media only screen and (max-width:400px){
+    img{
+       width:30%; 
+    }
+    body{
+        width: 100%;
+        height: 100vh;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
     }
     
 }
