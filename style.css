@@ -1,19 +1,10 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    text-decoration:none;
-    list-style-type:none;
-    
+
+html,body{
+    width:100%;
+    overflow-x:hidden;
+   
 }
-body
-{
-    width: 100%;
-    height: 100vh;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
+
 .navbar{
     list-style-type: none;
     padding:20px;
@@ -33,22 +24,16 @@ body
     background-color: black;
     float:right;
 }
-
-@media only screen and (max-width:400px){
-    img{
-       width:30%; 
-    }
-    body{
-        width: 100%;
-        height: 100vh;
-        margin: 0px;
-        padding: 0px;
-        overflow-x: hidden;
-    }
-    
+.container1{
+    width:100%;
+    height:1000px;
+    background-color:brown;
 }
+
+
+
+
 .footer{
-    
     bottom:0;
     width:100%;
     left:0;
@@ -72,23 +57,26 @@ body
 }
 .jonas{
     background-color:#ffbc14;
-   
     text-align:center;
     color:#25242b;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100%;
-    overflow:hidden;
-}
-.underc{   
-       
+    height:970px;
 }
 .jonas-content{
-    margin-top:300px;
     float:center;
     width:100%;
+   
+}
+.jonas-content2{
+   margin-top:100px;
+   
+    margin-bottom:300px;
+}
+#getintouch{
+    margin-bottom:-196px;
 }
 .aboutme{
     background-color:white;
@@ -96,7 +84,7 @@ body
     margin-top:-48px;
     padding-bottom:100px;
     text-align:left;
-    padding-left:180px;
+    padding-left:120px;
     
 }
 .aboutme-text{
@@ -110,13 +98,18 @@ body
     font-size:14px; 
     height:58px;
     padding: 14px 25px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 #projectslink{
-    font-size:16px;height:70px;width:160px;padding: 18px 25px;
-    text-align: center;text-decoration: none;display: inline-block;
+    font-size:16px;
+    height:70px;
+    width:160px;
+    padding: 18px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     margin-top:50px;
 }
 .whitebg-div{
@@ -151,4 +144,28 @@ display: inline-block;
     width:100%;
     text-align:center;
     height:500px;
+}
+@media only screen and (max-width:500px){
+    
+    img{
+       width:30%;
+       height:30%; 
+    }
+    .jonas{
+        
+        padding-bottom:200px;
+        height:670px;
+    }
+    .jonas-content{
+       margin-top:-50px;
+      
+       margin-bottom:-100px;
+       height:500px;
+    }
+    #getintouch{
+        margin-top:-176px;
+        }
+    #aboutme{
+        margin-left:-100px;
+    }
 }

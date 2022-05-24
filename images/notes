@@ -1,1 +1,7 @@
-https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend
+* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  }
+
+  <!-- <div class="underc"><img src="images/underconst.png" height="100px" width="250px" style="border-radius: 25px;border-style:outset;" /></div>--> 
