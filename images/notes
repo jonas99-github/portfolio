@@ -1,0 +1,7 @@
+* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  }
+
+  <!-- <div class="underc"><img src="images/underconst.png" height="100px" width="250px" style="border-radius: 25px;border-style:outset;" /></div>--> 
