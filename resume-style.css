@@ -131,7 +131,19 @@ p {
   padding-right: 30px;
   text-align: right;
 }
-
+@media all and (max-width: 1000px) {
+  .skills{
+    float:left;
+    margin-top:900px;
+    color:red;
+  }
+  .top-info{
+    background-color:green;
+  }
+  .timeline-area{
+    margin-top:2000px;
+  }
+}
 @media all and (max-width: 991px) {
 }
 @media all and (max-width: 768px) {
@@ -158,20 +170,25 @@ p {
     text-align: left !important;
   }
 }
-@media all and (max-width: 575px) {
-}
+
 @media all and (max-width: 360px) {
   .all-timelines::before {
     top: 32px;
   }
+  
 }
+
 
 .top-info{
   margin-left:180px;
   margin-top:150px;
+  
+  width:520px;
 }
 .skills{
-  margin-top:-370px;
+  margin-top:-390px;
   color:orange;
-  margin-left:1390px;
+  float:right;
+  
+  width:350px;
 }
