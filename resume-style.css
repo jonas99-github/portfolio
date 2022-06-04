@@ -165,3 +165,12 @@ p {
     top: 32px;
   }
 }
+
+.top-info{
+  margin-left:20px;
+}
+.skills{
+  margin-top:100px;
+  color:orange;
+  margin-left:20px;
+}
