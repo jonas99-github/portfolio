@@ -60,6 +60,7 @@ p {
 }
 .timeline-area {
   padding: 80px 0;
+  margin-top:400px;
 }
 .all-timelines {
   position: relative;
@@ -131,20 +132,31 @@ p {
   padding-right: 30px;
   text-align: right;
 }
+.top-info{
+  margin-left:180px;
+  margin-top:150px;
+  width:520px;
+}
+.skills{
+  margin-top:-390px;
+  color:orange;
+  float:right;
+  width:350px;
+}
 @media all and (max-width: 1000px) {
+  
+  .top-info{
+    margin:auto;
+  }
   .skills{
     float:left;
-    margin-top:900px;
-    color:red;
-  }
-  .top-info{
-    background-color:green;
+    margin-left:270px;
+    margin-top:100px;
+   
   }
   .timeline-area{
-    margin-top:2000px;
+    margin-top:900px;
   }
-}
-@media all and (max-width: 991px) {
 }
 @media all and (max-width: 768px) {
   .all-timelines::before {
@@ -169,26 +181,33 @@ p {
   .single-timeline:nth-child(even) .timeline-text span {
     text-align: left !important;
   }
+  .skills{
+    float:left;
+    margin-left:100px;
+    margin-top:100px;
+   
+  }
 }
 
 @media all and (max-width: 360px) {
   .all-timelines::before {
     top: 32px;
   }
-  
+  .skills{
+    float:left;
+    margin-left:0px;
+    margin-top:100px;
+   
+  }
 }
-
-
-.top-info{
-  margin-left:180px;
-  margin-top:150px;
-  
-  width:520px;
-}
-.skills{
-  margin-top:-390px;
-  color:orange;
-  float:right;
-  
-  width:350px;
+@media all and (max-width: 443px) {
+  .skills{
+    float:left;
+    margin-left:0px;
+    margin-top:100px;
+    width:100%;
+  }
+  .top-info{
+    width:100%;
+  }
 }
